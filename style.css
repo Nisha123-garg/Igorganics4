@@ -1,0 +1,168 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0px; 
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.div1
+{
+    border: 2px solid black;
+}
+.menu_bar
+{
+    padding: 0px 0px;
+}
+.logo
+{
+    padding-top: 17px;
+    text-align: center;
+}
+.menu_list ul li
+{
+    margin: 0px 4px;
+}
+.menu_list ul li a
+{
+    color: black !important;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:bold;
+}
+.menu_list .active a
+{
+    color: #ee308f !important;
+}
+.menu_list ul li a:hover
+{
+    color:#ee308f !important;
+    text-decoration: none;
+}
+#banner
+{
+    background: linear-gradient(to top, #ea3091,#c137ad,#9b3cc8,#6644ec);
+    padding: 20px 0px;
+    text-align: center;
+}
+.banner-content h1
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.banner-content p
+{
+    font-size: 18px;
+    color: white;
+}
+.content p
+{
+    color: #ea3091;
+    font-size: 14px;
+}
+#add-with-paypal
+{
+    font-size: 14px;
+    width: 40%;
+    padding:8px 8px;
+    margin-bottom: 30px;
+}
+#funds-button
+{
+    background: linear-gradient(to top, #ea3091,#c137ad,#9b3cc8,#6644ec);
+    width: 100%;
+    padding:6px 8px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 3vw;
+    margin-bottom: 30px;
+}
+.funds img
+{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.funds .visa
+{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+table thead th 
+{ 
+    padding: 7px;  
+    width: 100%;
+    font-size: 16px;
+}
+table tbody td 
+{ 
+    padding: 7px;  
+    width: 100%;
+    font-size: 16px;
+}
+.table-data
+{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+#footer
+{
+    background-color: #b31266;
+    padding: 20px 0px;
+}
+.icon 
+{
+    margin-top: 10px;
+}
+.icon a
+{
+    color: #b31266;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 3px;
+   
+}
+@font-face
+{
+    font-family: OpenSans-Bold;
+    src: url('font/OpenSans-Bold');
+}
+@font-face
+{
+    font-family:OpenSans-Regular ;
+    src: url('font/OpenSans-Regular');
+}
+@font-face
+{
+    font-family:Roboto-Bold;
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+    .menu_list ul li a
+    {
+        color: black !important;
+        padding-right: 20px;
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        font-weight:bold;
+    }
+}
